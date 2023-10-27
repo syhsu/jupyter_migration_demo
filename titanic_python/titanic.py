@@ -1,4 +1,4 @@
-"""Object for .\notebooks\titanic-logistic-regression-with-python-data-lineage.png"""
+"""Object for .\notebooks\titanic-logistic-regression-with-python-data-lineage.ipynb"""
 
 import pandas as pd
 from .utils import *
