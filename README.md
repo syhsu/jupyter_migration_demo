@@ -23,7 +23,7 @@ Special thanks to [Baligh Mnassri, Ph.D.](https://www.linkedin.com/in/baligh-mna
    - Copy the unit tests in Step 3 
    - Start refactoring
 
-![data lineage diagram](https://github.com/syhsu/jupyter_migration_demo/notebooks/titanic-logistic-regression-with-python-data-lineage.png)
+![data lineage diagram](https://raw.githubusercontent.com/syhsu/jupyter_migration_demo/main/notebooks/titanic-logistic-regression-with-python-data-lineage.png)
 
 # Reference
 [source notebook](https://www.kaggle.com/code/mnassrib/titanic-logistic-regression-with-python)
