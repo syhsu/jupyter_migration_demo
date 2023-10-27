@@ -23,7 +23,7 @@ Special thanks to [Baligh Mnassri, Ph.D.](https://www.linkedin.com/in/baligh-mna
    - Copy the unit tests in Step 3 
    - Start refactoring
 
-<img src="https://raw.githubusercontent.com/syhsu/jupyter_migration_demo/main/notebooks/titanic-logistic-regression-with-python-data-lineage.png" width="250" height="100">
+<img src="https://raw.githubusercontent.com/syhsu/jupyter_migration_demo/main/notebooks/titanic-logistic-regression-with-python-data-lineage.png" width="500" height="250">
 *data lineage diagram*
 
 # Reference
