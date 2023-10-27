@@ -24,7 +24,7 @@ Special thanks to [Baligh Mnassri, Ph.D.](https://www.linkedin.com/in/baligh-mna
    - Start refactoring
 
 <img src="https://raw.githubusercontent.com/syhsu/jupyter_migration_demo/main/notebooks/titanic-logistic-regression-with-python-data-lineage.png" width="500" height="250">
-*data lineage diagram*
+*data lineage diagram (c: cell)*
 
 # Reference
 [source notebook](https://www.kaggle.com/code/mnassrib/titanic-logistic-regression-with-python)
