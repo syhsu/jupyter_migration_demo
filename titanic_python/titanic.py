@@ -1,4 +1,4 @@
-
+"""Object for .\notebooks\titanic-logistic-regression-with-python-data-lineage.png"""
 
 import pandas as pd
 from .utils import *
@@ -18,7 +18,7 @@ class Titanic_py:
                 processed_df_train1(self.df_train)
             )
         )
-        
+
     def process_test_data(self):
         self.df_final_test = processed_final_test(
             self.df_test, self.df_train
