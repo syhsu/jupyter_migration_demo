@@ -8,9 +8,9 @@ Special thanks to [Baligh Mnassri, Ph.D.](https://www.linkedin.com/in/baligh-mna
 2. Collect input data, intermediate data, and final results
   - Use notebook console to save data  not touching notebook cells
   - Data file naming:
-    * Inputs: put raw in the filename
-    * Intermediate data: put a number in the filename
-    * Results (the last dataframe): put “result” in the filename
+    - Inputs: put raw in the filename
+    - Intermediate data: put a number in the filename
+    - Results (the last dataframe): put “result” in the filename
 3. Set up unit tests for the code from cells  verify if the copied code is correct
   - Set up fixtures
   - Create unit tests following cell order  split concerns
