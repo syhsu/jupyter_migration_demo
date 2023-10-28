@@ -13,7 +13,7 @@ Special thanks to [Baligh Mnassri, Ph.D.](https://www.linkedin.com/in/baligh-mna
      - Results (the last dataframe): put “result” in the filename
 3. Set up unit tests for the code in cells --> verify if the copied code is correct
    - Set up fixtures
-   - Create unit tests following cell order --> split concerns
+   - Create unit tests following cell orders --> split concerns
 4. Object-level refactoring
    - Copy all unit tests and remove “test” from the function names
    - Create an object to run the functions used in unit tests
