@@ -3,6 +3,7 @@
 import pandas as pd
 from .utils import *
 
+
 class Titanic_py:
     def __init__(self, train_path, test_path):
         self.train_path = train_path
@@ -13,10 +14,11 @@ class Titanic_py:
         self.df_test = pd.read_pickle(self.test_path)
 
     def process_train_data(self):
-        self.df_final_train = processed_final_train(
-            processed_df_train2(
-                processed_df_train1(self.df_train)
-            )
+        self.df_final_train = (
+            self.df_train
+            .pipe(processed_df_train1)
+            .pipe(processed_df_train2)
+            .pipe(processed_final_train)
         )
 
     def process_test_data(self):
