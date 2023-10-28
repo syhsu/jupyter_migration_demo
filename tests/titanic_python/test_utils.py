@@ -6,7 +6,7 @@ import os
 import sys
 
 TEST_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_FOLDER = os.path.join(TEST_DIR, "../data/")
+DATA_FOLDER = os.path.join(TEST_DIR, "data")
 PROJECT_DIR = os.path.abspath(os.path.join(TEST_DIR, "../../"))
 sys.path.insert(0, PROJECT_DIR)
 
