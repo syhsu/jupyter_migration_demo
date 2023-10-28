@@ -26,12 +26,10 @@ class Titanic_py:
             self.df_test, self.df_train
         )
     
-    @staticmethod
-    def feature_ranking():
+    def feature_ranking(self):
         pass
     
-    @staticmethod
-    def modelling():
+    def modelling(self):
         pass
     
     def run_all(self):
