@@ -14,7 +14,7 @@ from titanic_python.titanic import Titanic_py
 def test_Titanic_py():
     titanic = Titanic_py(
         os.path.join(TEST_DIR, "data/titanic_python/raw_train_df.pickle"), 
-        os.path.join(TEST_DIR, "data/titanic_python/raw_test_df.pickle"
+        os.path.join(TEST_DIR, "data/titanic_python/raw_test_df.pickle")
     )
 
     titanic.run_all()
