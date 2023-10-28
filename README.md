@@ -6,14 +6,14 @@ Special thanks to [Baligh Mnassri, Ph.D.](https://www.linkedin.com/in/baligh-mna
 # Steps I took to migrate jupyter notebooks
 1. Make data lineage diagram
 2. Collect input data, intermediate data, and final results
-   - Use notebook console to save data  not touching notebook cells
+   - Use notebook console to save data --> Not touching notebook cells
    - Data file naming:
      - Inputs: put raw in the filename
      - Intermediate data: put a number in the filename
      - Results (the last dataframe): put “result” in the filename
 3. Set up unit tests for the code from cells  verify if the copied code is correct
    - Set up fixtures
-   - Create unit tests following cell order  split concerns
+   - Create unit tests following cell order --> split concerns
    - Define meaningful unit test name
 4. Object-level refactoring
    - Copy all unit tests and remove “test” from the function names
