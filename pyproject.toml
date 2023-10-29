@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "titanic-py"
+version = "0.1.0"
+description = "python package for running titanic predictions"
+authors = ["shengyihsu <shengyihsu@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+pandas = "2.0.3"
+numpy = "^1.26.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
