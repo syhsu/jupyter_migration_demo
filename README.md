@@ -14,11 +14,13 @@ Special thanks to [Baligh Mnassri, Ph.D.](https://www.linkedin.com/in/baligh-mna
 3. Set up unit tests for the code in cells --> verify if the copied code is correct
    - [Set up fixtures](https://github.com/syhsu/jupyter_migration_demo/blob/main/tests/conftest.py)
    - [Create unit tests following cell orders](https://github.com/syhsu/jupyter_migration_demo/blob/main/tests/titanic_python/test_notebook.py) --> split concerns
-4. Object-level refactoring
+4. Create utility functions
    - [Copy all unit tests and remove “test” from the function names](https://github.com/syhsu/jupyter_migration_demo/blob/main/titanic_python/utils.py)
+   - [Set up tests for the functions](https://github.com/syhsu/jupyter_migration_demo/blob/main/tests/titanic_python/test_utils.py)
+5. Object-level refactoring
    - [Create an object to run the functions used in unit tests](https://github.com/syhsu/jupyter_migration_demo/blob/main/titanic_python/titanic.py)
    - [Set up tests for the object](https://github.com/syhsu/jupyter_migration_demo/blob/main/tests/titanic_python/test_titanic.py)
-5. (optional) Function-level refactoring 
+6. (optional) Function-level refactoring 
    - [Refactor the functions in utils.py](https://github.com/syhsu/jupyter_migration_demo/blob/main/titanic_python/utils.py)
    - pytest -k test_utils.py --> check if the changes are correct
 
