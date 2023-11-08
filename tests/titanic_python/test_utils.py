@@ -1,7 +1,3 @@
-"""
-Automated tests for code blocks in notebooks/titanic-logistic-regression-with-python.ipynb
-
-"""
 import os
 import sys
 
@@ -12,7 +8,6 @@ sys.path.insert(0, PROJECT_DIR)
 
 from pandas.testing import assert_frame_equal
 import pandas as pd
-import numpy as np
 
 from titanic_python.utils import *
 
