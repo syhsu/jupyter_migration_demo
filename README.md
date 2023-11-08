@@ -17,8 +17,8 @@ Special thanks to [Baligh Mnassri, Ph.D.](https://www.linkedin.com/in/baligh-mna
 4. Object-level refactoring
    - Copy all unit tests and remove “test” from the function names
    - Create an object to run the functions used in unit tests
-5. Set up tests for the object
-6. (optional) Function-level refactoring 
+   - Set up tests for the object
+5. (optional) Function-level refactoring 
    - Copy the unit tests in Step 3 
    - Start refactoring
 
