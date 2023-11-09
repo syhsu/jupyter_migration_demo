@@ -4,10 +4,10 @@ This repo demos the steps to migrate jupyter notebooks to python packages
 Special thanks to [Baligh Mnassri, Ph.D.](https://www.linkedin.com/in/baligh-mnassri/?locale=en_US) Without his concent I can't use his notebook to demo the migration steps.
 
 # Steps I took to migrate jupyter notebooks
-1. Make data lineage diagram, see the example below.
+1. Make [data lineage diagram](https://github.com/syhsu/jupyter_migration_demo/blob/main/notebooks/titanic-logistic-regression-with-python-data-lineage.png), see the example below.
 2. Collect input data, intermediate data, and final results
    - Use notebook console to save data --> Not touching notebook cells
-   - Data file naming:
+   - [Data file naming](https://github.com/syhsu/jupyter_migration_demo/tree/main/tests/data/titanic_python):
      - Inputs: put raw in the filename
      - Intermediate data: put a number in the filename
      - Results (the last dataframe): put “result” in the filename
